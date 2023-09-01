@@ -1,14 +1,54 @@
 body {
-    background: #207E62;
+    background: #119766;
 }
 
 aside{
     float: left;
-    background: 006D4C;
-    width: 20%;
-    padding: 2.5%;
+    background: #c0c0c0;
+    width: 15%;
+    padding: 1.5%;
     height: 100vh;
-
-    border-right: 5px solid #4d4d4d;
-
+    color: #491114;
+    border-right: 5px solid #986960;
 }
+
+aside img {
+    width: 180px;
+    float: left;
+}
+
+aside .logo {
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: 15px;
+    left: 10px
+}
+
+aside ul {list-style:none}
+
+aside ul li {
+    color: #000000;
+    disply: block;
+    margin-top: 15px;
+    transition: transform .2s ease;
+    font-size: 20px;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #16ad43;
+    transform: scale(1.20);
+}
+
+main .features {
+    float: left;
+    color: #013220;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
+
+main .features h1 {font-size: 50px;}
+
+main .features button {margin: 20px;}

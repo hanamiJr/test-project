@@ -1,44 +1,54 @@
 body {
-    background: #119766;
+    background: #baabab;
 }
 
-aside{
-    float: left;
-    background: #c0c0c0;
-    width: 15%;
-    padding: 1.5%;
-    height: 100vh;
-    color: #491114;
-    border-right: 5px solid #986960;
+header {
+    width: 100%
+    height: 20px;
+    position: sticky;
+    top: 0;
+    background: #478ea4;
+
 }
 
-aside img {
-    width: 180px;
-    float: left;
+header .title {
+    font-size: 50px;
+    font-weight: 800;
+    padding-top: 0px;
+    text-align: left;
+    margin-left: 50px;
 }
 
-aside .logo {
-    font-size: 15px;
-    margin-left: 10px;
-    font-weight: bold;
-    position: relative;
-    top: 15px;
-    left: 10px
+header ul {
+    list-style:none;
+    position: absolute;
+    top: 5px;
+    right: 60px;
+    padding:0;
+    margin:0;
 }
 
-aside ul {list-style:none}
-
-aside ul li {
+header ul li {
     color: #000000;
     disply: block;
     margin-top: 15px;
     transition: transform .2s ease;
-    font-size: 20px;
+    font-size: 18px;
+    display:inline-block;
+    margin: 10px 20px 0 0;
 }
 
-aside ul li:hover, aside ul a:hover {
-    color: #16ad43;
-    transform: scale(1.20);
+header ul li:hover, header ul a:hover {
+    color: #ffffff;
+    transform: scale(1.15);
+}
+
+header a {
+    disply: block;
+    padding:0 10px;
+    font-size:20px;
+    line-height: 45px;
+    text-decoration:none;
 }
 
 main .features {
@@ -46,7 +56,7 @@ main .features {
     color: #013220;
     margin-top: 100px;
     text-align: center;
-    width: 75%;
+    width: 100%;
 }
 
 main .features h1 {font-size: 50px;}

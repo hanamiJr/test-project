@@ -48,7 +48,7 @@ header a {
     padding:0 10px;
     font-size:20px;
     line-height: 45px;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 main .features {
@@ -61,6 +61,13 @@ main .features {
 
 main .features h1 {font-size: 50px;}
 
-main .features button {margin: 20px;}
+main .features button {
+    margin: 25px;
+    width: 145px;
+    height: 65px
+}
 
+main .features a {
+    text-decoration: none;
+}
 

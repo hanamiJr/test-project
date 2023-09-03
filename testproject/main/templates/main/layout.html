@@ -1,6 +1,7 @@
 {% load static %}
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -12,6 +13,7 @@
     <link rel="icon" href="main/img/элитная.png" type="image/jpg" sizes="16x16">
     <link rel="stylesheet" href="{% static 'main/css/main.css' %}">
 </head>
+
 <body>
     <div id="wrap">
         <header>
@@ -23,9 +25,13 @@
             </ul>
         </header>
     </div>
+
     <main>
         {% block content %}
         {% endblock %}
     </main>
+
 </body>
+
 </html>
+

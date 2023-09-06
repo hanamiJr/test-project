@@ -1,5 +1,6 @@
 body {
     background: #baabab;
+
 }
 
 header {
@@ -59,7 +60,16 @@ main .features {
     width: 100%;
 }
 
-main .features h1 {font-size: 50px;}
+main .features h1 {
+    font-size: 50px;
+}
+
+main .features-about h1 {
+    font-size: 50px;
+    color: #013220;
+    margin-top: 10px;
+    text-align: center;
+}
 
 main .features button {
     margin: 25px;
@@ -71,3 +81,51 @@ main .features a {
     text-decoration: none;
 }
 
+main .icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+
+}
+
+main .icon .item1:hover,.icon .item2:hover,.icon .item3:hover,.icon .item4:hover {
+    transform: scale(1.05);
+    transition: transform .6s ease;
+}
+
+main .icon .item1 {
+    height: 320px;
+    width: 250px;
+    background-image: url("../../main/img/Artur.jpg");
+    background-size: cover;
+    background-color: #000;
+    border-radius: 30px;
+}
+
+main .icon .item2 {
+    height: 320px;
+    width: 250px;
+    background-image: url("../../main/img/");
+    background-size: cover;
+    background-color: #000;
+    border-radius: 30px;
+}
+
+main .icon .item3 {
+    height: 320px;
+    width: 250px;
+    background-image: url("../../main/img/");
+    background-size: cover;
+    background-color: #000;
+    border-radius: 30px;
+}
+
+main .icon .item4 {
+    height: 320px;
+    width: 250px;
+    background-image: url("../../main/img/");
+    background-size: cover;
+    background-color: #000;
+    border-radius: 30px;
+}

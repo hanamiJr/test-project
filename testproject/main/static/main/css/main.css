@@ -84,19 +84,15 @@ main .features a {
 main .icon {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin-top: 40px;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 100px;
 
-}
-
-main .icon .item1:hover,.icon .item2:hover,.icon .item3:hover,.icon .item4:hover {
-    transform: scale(1.05);
-    transition: transform .6s ease;
 }
 
 main .icon .item1 {
-    height: 320px;
-    width: 250px;
+    height: 200px;
+    width: 140px;
     background-image: url("../../main/img/Artur.jpg");
     background-size: cover;
     background-color: #000;
@@ -104,28 +100,33 @@ main .icon .item1 {
 }
 
 main .icon .item2 {
-    height: 320px;
-    width: 250px;
-    background-image: url("../../main/img/");
+    height: 200px;
+    width: 140px;
+    background-image: url("../../main/img/Даня.jpg");
     background-size: cover;
     background-color: #000;
     border-radius: 30px;
 }
 
 main .icon .item3 {
-    height: 320px;
-    width: 250px;
-    background-image: url("../../main/img/");
+    height: 200px;
+    width: 140px;
+    background-image: url("../../main/img/иван.jpg");
     background-size: cover;
     background-color: #000;
     border-radius: 30px;
 }
 
 main .icon .item4 {
-    height: 320px;
-    width: 250px;
-    background-image: url("../../main/img/");
+    height: 200px;
+    width: 140px;
+    background-image: url("../../main/img/Софа.png");
     background-size: cover;
     background-color: #000;
     border-radius: 30px;
+}
+
+main .icon .item1:hover ,.icon .item2:hover,.icon .item3:hover,.icon .item4:hover {
+    transform: scale(1.3);
+    transition: transform .2s ease;
 }
